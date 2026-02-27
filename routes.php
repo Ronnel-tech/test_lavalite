@@ -4,4 +4,4 @@
  */
 
 $router->get('/', 'app/views/homepage');
-$router->get('/about-us','about-us.php');
+$router->get('../app/views/about-us','about-us.php');
